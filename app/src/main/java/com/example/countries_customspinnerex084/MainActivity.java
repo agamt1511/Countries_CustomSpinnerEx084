@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if (position != 0) {
             info.setText(
                     "Country:\n" + state[position] + "\n\n" +
-                            "Capital\b\n" + capital[position] + "\n\n" +
-                            "Anthem:\b\n" + anthem[position] + "\n\n" +
-                            "Population Size:\b\n" + population[position] + "\n\n" +
-                            "Official languages:\b\n" + languages[position]
+                            "Capital\n" + capital[position] + "\n\n" +
+                            "Anthem:\n" + anthem[position] + "\n\n" +
+                            "Population Size:\n" + population[position] + "\n\n" +
+                            "Official languages:\n" + languages[position]
             );
         }
         if (position == 0){
